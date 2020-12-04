@@ -16,8 +16,8 @@ class login : AppCompatActivity() {
         val username :EditText=findViewById(R.id.username_et)
         val password:EditText=findViewById(R.id.password_et)
         login_btn.setOnClickListener {
-           val status:String= if(username.text.toString().equals("jsshreesh999@gmail.com") && password.text.toString().equals("12345"))"Logged In Successfully" else "Login Failed"
-            if(username.text.toString().equals("jsshreesh999@gmail.com") && password.text.toString().equals("12345")){
+           val status:String= if(username.text.toString().equals("WeatherApp") && password.text.toString().equals("12345"))"Logged In Successfully" else "Login Failed"
+            if(username.text.toString().equals("WeatherApp") && password.text.toString().equals("12345")){
                 val intent= Intent(this,LatLon::class.java)
                 startActivity(intent)
                 finish()
