@@ -121,8 +121,8 @@ class MainActivity : AppCompatActivity() {
             } catch (e: Exception) {
                 findViewById<ProgressBar>(R.id.loader).visibility = View.GONE
                 findViewById<TextView>(R.id.errorText).visibility = View.VISIBLE
-                val Tag:String ="jhjhjh"
-                Log.i(Tag, "jkhkjchkjhkjhkjhkjh", e)
+                val Tag:String ="Tag"
+                Log.i(Tag, "Check Exception Under Here", e)
 
             }
 
