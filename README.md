@@ -1,5 +1,6 @@
 # WeatherApp
 This is a Weather App that shows output
+
 1.Place name, Country
 2.updated Date and Time of weather
 3.Weather
